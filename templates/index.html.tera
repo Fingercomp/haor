@@ -1,0 +1,13 @@
+{% extends "base" %}
+{% block title %}Index{% endblock title %}
+{% block article %}
+  <h1>What's it all about?</h1>
+  <p>This is a really simple website running on Rust nightly, powered by the magnificent Rocket web framework.</p>
+  <p>I'm using using Tera templates to render these wonderful pages with ease and peace of mind.</p>
+  <h2>Is the Rocket framework good?</h2>
+  <p>Not good, no. It's <i>cosmically</i> and <i>universally</i> great. This is the most intuitive web framework I've ever used (I've been using actix-web (Rust), Flask (Python), Pyramid (Python), and I think I know what I'm talking about). I've never even thought something like this would be even possible.</p>
+  <p>Rust is an outstanding language. Its overwhemingly powerful type system that allows to build things of any complexity while keeping it memory-safe (I've all forgotten about double-frees or other similar nightmares I had when I was doing C/++) continues to impress me. A democratic way to developing the language is used: e. g., any feature can be proposed by submitting a RFC on GitHub. Anyway, it's awesome, so check it out.</p>
+  <p>The Rocket framework uses this expressiveness of the language (and a handful of magic) to eliminate bloat code. Check out the source code of this site if you still refuse to believe me.</p>
+  <h2>Got it, what about the website?</h2>
+  <p>Oh, right. That's a good question (obviously). Do you think it would be fun if you had to figure out how to set up a project, and then it would show you an installation guide? Actually, this is exactly what's going on here. At the top of this page, you see (I hope you <i>do</i> see) a navbar with links to the installation steps. Feel free to follow them.</p>
+{% endblock article %}

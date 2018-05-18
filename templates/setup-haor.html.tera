@@ -1,0 +1,13 @@
+{% extends "base" %}
+{% block title %}Step 2: Set up the Project{% endblock title %}
+{% block article %}
+  <h1>Step 2: Set up the Project</h1>
+  <p>After you've downloaded the source code directory, step into it. Run this:</p>
+  <pre>
+    $ rustup toolchain install nightly
+    $ rustup override set nightly
+    $ rustup update
+    $ cargo run
+  </pre>
+  <p>If everything is all right, you should have a web server instance running on <a href="http://localhost:8000">localhost:8000</a>. Press <code>^C</code> to terminate it.</p>
+{% endblock article %}

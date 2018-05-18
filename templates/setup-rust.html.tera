@@ -1,0 +1,7 @@
+{% extends "base" %}
+{% block title %}Step 1: Install Rust{% endblock title %}
+{% block article %}
+  <h1>Step 1: Install Rust</h1>
+  <p>Go over to <a href="https://www.rust-lang.org/en-US/install.html">the Rust website</a>, and follow instructions.</p>
+  <p>Continue to <a href="/setup/haor">the step two</a>.</p>
+{% endblock article %}

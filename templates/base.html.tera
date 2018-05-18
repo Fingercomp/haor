@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>{% block title %}{% endblock title %} — haor</title>
+  </head>
+  <body>
+    <header id="nav">
+      <a class="nav-item" href="/">Index</a>
+      <a class="nav-item" href="/setup/rust">Step 1: Install Rust</a>
+      <a class="nav-item" href="/setup/haor">Step 2: Set up the Project</a>
+      <a class="nav-item" href="/copyright">Copylefts</a>
+    </header>
+    <main>
+      <article>
+        {% block article %}{% endblock article %}
+      </article>
+    </main>
+  </body>
+</html>
