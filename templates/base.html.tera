@@ -16,5 +16,8 @@
         {% block article %}{% endblock article %}
       </article>
     </main>
+    <footer>
+      <span id="powered-by">Powered by <a href="https://www.rust-lang.org/"><img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" class="icon"></a>, <a href="https://rocket.rs"><img src="https://rocket.rs/favicon-32x32.png" class="icon"></a>, and <a href="https://tera.netlify.com/">Tera</a>.</span>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,104 @@
+@import utl('https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #383c4a;
+  color: #d2dae3;
+  margin: 0;
+  font-size: 16px;
+  min-height: 100%;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body:after {
+  content: '';
+  display: block;
+  height: 3em;
+}
+
+#nav {
+  margin: 0 0 2em 0;
+  background: #2f343f;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.nav-item {
+  flex: 0 1 auto;
+  padding: 1em;
+  margin-right: 3em;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item:hover, .nav-item:focus {
+  background: #4b5365;
+}
+
+a, a:visited {
+  color: #5294e3;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #4d9eef;
+}
+
+main {
+  margin: 2em 15% 2em 20%;
+  background: #404552;
+  border-radius: 3px;
+  padding: 1em 2em 1em 3em;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+pre {
+  background: #595f71;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+p, pre, blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+pre, code {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+blockquote {
+  border-left: 5px solid #595f71;
+  margin-left: 1em;
+  padding-left: 2em;
+}
+
+footer {
+  margin: 2em 0 0;
+  text-align: right;
+  background: #2f343f;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+  vertical-align: middle;
+}
+
+#powered-by {
+  vertical-align: middle;
+  line-height: 3em;
+  margin-right: 5em;
+}
+
+.icon {
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
+}

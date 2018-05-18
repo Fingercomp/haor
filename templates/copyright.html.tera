@@ -2,7 +2,7 @@
 {% block title %}Copylefts{% endblock title %}
 {% block article %}
   <h1>Copyrights and copylefts</h1>
-  <p>I've decided not to bother, and published the source code under the Unlicense, which is supposed to do something like releasing it into the public domain. This means you're free to do whatever you want with the code, and I won't care about it. In the end, this is a really simple project to learn the Rocket framework.</p>
+  <p>I've decided not to bother, and published the source code under the Unlicense, which is supposed to do something like releasing it into the public domain. This means you're free to do whatever you want with the code, and I won't care about it. In the end, this is a really simple project I've started to learn the Rocket framework.</p>
   <blockquote>
     <p>This is free and unencumbered software released into the public domain.</p>
     <p>Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.</p>
